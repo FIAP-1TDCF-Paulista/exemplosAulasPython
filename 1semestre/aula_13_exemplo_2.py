@@ -1,0 +1,5 @@
+#arquivo = open('arquivo.txt', 'r')
+arquivo = open('arquivo.txt', 'r',encoding='utf-8')
+unica_string = arquivo.read()
+print(unica_string)
+arquivo.close()

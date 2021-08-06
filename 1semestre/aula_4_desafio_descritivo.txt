@@ -1,0 +1,33 @@
+Desafio Aula 4 (comando if completo)
+
+Olá Pessoal,
+
+Em tempos de covid 19 vamos realizar algumas atividades remotas para não deixar a programação 
+de lado. 
+
+Resolver a  equação do segundo grau através do método resolutivo de Bháskara.
+
+O código é repleto de condições dos mais variados tipos e apresenta a estrutura mais
+avançada do uso do comando if.
+
+A minha sugestão é rodar o código com as equações abaixo para realizar a depuração do mesmo.
+
+Equação de 2º genérica: ax^2 + bx + c = 0
+
+Realizar os testes abaixo:
+
+a)  3x + 2 = 0
+b) -3x - 2 = 0
+c)  1x^2 - 5x + 6 = 0
+d)   x^2 - 4x + 4 = 0
+e)   x^2 + 2x + 2 = 0
+f) -3x^2 + 2x = 0
+g)  4x^2 - 3x = 0
+h)  4X^2 - 4 = 0
+
+Observar o que foi necessário incluir no código para que seja possível o uso da função
+sqrt()  (raiz quadrada).
+
+Bom divertimento! :)
+Prof. Fábio Cabrini
+26/03/2021

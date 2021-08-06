@@ -1,0 +1,8 @@
+arquivo = open('arquivo.txt', 'r', encoding='utf-8')
+primeira_linha = arquivo.readline()
+segunda_linha = arquivo.readline()
+terceira_linha = arquivo.readline()
+print(primeira_linha)
+print(segunda_linha)
+print(terceira_linha)
+arquivo.close()

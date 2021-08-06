@@ -1,0 +1,17 @@
+lista = []
+produto = (123,'Máscara de proteção', 10, 1.50)
+lista.append(produto)
+produto = (456,'Detergente líquido', 50, 2.59)
+lista.append(produto)
+produto = (789,'Álcool em gel', 100, 15.00)
+lista.append(produto)
+produto = (300,'Papel Higienico', 1000, 2.00)
+lista.append(produto)
+print("Lista de produtos em estoque na farmácia:")
+for (codigo, nome, quantidade, precounitario) in lista:
+    print("Identificação do produto: ",codigo)
+    print("Descrição: ", nome)
+    print("Estoque = {0} a R$ {1:.2f}".format(quantidade, precounitario))
+    print("Total deste produto = R$ {0:.2f}".format(quantidade * precounitario))
+    print("Quantos produtos temos cadastrados",lista.count(0))
+print("Fim do programa")
